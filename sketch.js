@@ -63,6 +63,8 @@ function draw() {
 
     pop();
   }
+
+  saveCanvas("collatz_img.png")
 }
 
 
