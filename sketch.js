@@ -30,7 +30,7 @@ function setup() {
   pop();
   
   // Interface elements
-  alphaSlider = createSlider(0, 255, strokeAlpha);
+  alphaSlider = createSlider(1, 255, strokeAlpha);
   alphaSlider.position(20, 70);
 
   angleSlider = createSlider(0, 90, angle);
